@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>TuoDuo</title>
+
+	<link rel="stylesheet" href="index.css" />
+</head>
+<body>
+	
+	<header>
+		<h1>TuoDuoList</h1>
+        <h2>Планируй и будь продуктивнее</h2>
+		<form id="new-task-form">
+			<input 
+				type="text" 
+				name="new-task-input" 
+				id="new-task-input" 
+				placeholder="Что-то уже есть в планах?" />
+			<input 
+				type="submit"
+				id="new-task-submit" 
+				value="Добавить" />
+		</form>
+	</header>
+	<main>
+		<section class="task-list">
+			<h2>Список планов</h2>
+
+			<div id="tasks">
+
+			</div>
+		</section>
+	</main>
+
+	<script src="index.js"></script>
+</body>
+</html>
